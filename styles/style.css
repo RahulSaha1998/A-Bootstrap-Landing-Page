@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.first-view{
+    background: rgba(255, 144, 14, 0.1);
+    height: 1050px;
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0px 25px;
+}
+.nav-title{
+    color: #131313;
+    font-weight: 700;
+font-size: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    height: 80px;  
+}
+nav ul{
+    color: #424242;
+    display:flex;
+    list-style: none;
+    font-weight: 500;
+font-size: 18px;
+    gap: 24px;
+}
+
+/* Architecture group */
+
+.archi-group{
+    text-align: center;
+   
+    padding-top: 5%;
+}
+.archi-title{
+    color: #131313;
+    font-weight: 700;
+font-size: 40px;
+}
+
+.archi-desc{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+padding: 2%;
+}
+.btn-primary {
+    color: #FFFFFF;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+.archi-group > img{
+    padding-top: 3%;
+    height: 600px;
+    width: 1245px;
+}
+
+
+
+/*----------------------------------------------
+               Features Section
+------------------------------------------------- */
+
+.features-container{
+    display: flex;
+    margin-left: 250px;
+    gap: 40px;
+    padding-top: 5%;
+}
+
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.f-img> img{
+    height: 250px;
+    width: 250px;
+}
+
+/* .features-para{
+    padding-left: 2%;
+    padding-bottom: 5%;
+} */
+.features-title{
+    padding-top: 20%;
+    font-weight: 700;
+font-size: 30px;
+}
+.f-gray{
+    color: #727272;
+}
+.f-black{
+    color: #131313;
+}
+.f-orange{
+    color: #FF900E;
+}
+
+.features-desc{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+padding-bottom: 2%;
+}
+
+/*----------------------------------------------
+               Body Section
+------------------------------------------------- */
+.features-body-container{
+    display: flex;
+    padding-top: 10% ;
+    gap: 5%;
+    
+    
+}
+.body-section{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 24px;
+    
+}
+.body-img > img{
+ height: 700px;
+ width: 500px;   
+ 
+}
+.vl {
+    border-left: 6px solid orangered;
+    height: 80px;
+  }
+  .vertical{
+    display: flex;
+    gap: 10px;
+  }
+  .title > h1,h3{
+    color: #131313;
+    font-weight: 700;
+  }
+  .title > p{
+    color: #727272;
+    padding-top: 2%;
+  }
+  .btn-secondary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 70px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+.button{
+    text-align: center;
+}
