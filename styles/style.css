@@ -129,8 +129,7 @@ padding-bottom: 2%;
 .features-body-container{
     display: flex;
     padding-top: 10% ;
-    gap: 5%;
-    
+    gap: 5%; 
     
 }
 .body-section{
@@ -172,4 +171,129 @@ padding-bottom: 2%;
 }
 .button{
     text-align: center;
+}
+
+/*----------------------------------------------
+               Facts Section
+------------------------------------------------- */
+.facts-container{
+    padding-top: 6%;
+}
+
+.facts > h1{
+    color: #131313;
+    font-weight: 700;
+}
+.facts >p{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+}
+
+/*----------------------------------------------
+               Box Section
+------------------------------------------------- */
+.box-section{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #FF900E;
+    text-align: center;
+    border-radius: 7px;
+    padding-top: 17px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.box:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.box > img {
+    height: 40px;
+    width: 40px;
+}
+.box > p{
+    color: #727272;
+}
+.box >h2{
+    color: #424242;
+}
+
+/*----------------------------------------------
+               sponser Section
+------------------------------------------------- */
+
+.sponser-section{
+    padding-top: 7%;
+    text-align: center;
+}
+.sponser> h2{
+    color: #131313;
+    padding: 2%;
+}
+.sponser>p{
+    color: #424242;
+}
+
+/*----------------------------------------------
+               sponser logo Section
+------------------------------------------------- */
+.sponser-img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3% ;
+}
+.s-img > img{
+    width: 120.51px;
+height: 40px;
+}
+
+/*----------------------------------------------
+               client Section
+------------------------------------------------- */
+.client-section{
+    padding-top: 5%;
+}
+.review{
+    text-align: center;
+    color: #131313;
+    padding-bottom: 5%;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.client > img{
+    height: 200px;
+    width: 200px;
+    padding: 2%;
+}
+
+
+/*----------------------------------------------
+               footer Section
+------------------------------------------------- */
+.footer{
+    padding: 7%;
+}
+
+.f{
+    width: 1000px;
+    height: 70px;
+    text-align: center;
+    color: #424242;
+    background-color: #FFF4E7;
+    padding-top: 20px;
+    border-radius: 10px;
+    
 }
